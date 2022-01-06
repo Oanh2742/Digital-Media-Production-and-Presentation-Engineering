@@ -1,0 +1,40 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="552" scrolly="264.49999999999994" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="769" scrolly="340.500015258789" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="L%JnvjL$]$n(-K4[YLn#" x="-810" y="-250">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="*!L)=pOxvSIwDDC=epej">
+          <field name="FIELDNAME">trai</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="setAnimationFrame" id="m62%nVzkUrx.IHv4nI*+">
+          <value name="VALUE">
+            <shadow type="animationList" id="KE)`r~hM+unDWlsx.Dr/">
+              <field name="FIELDNAME">dau khi</field>
+            </shadow>
+          </value>
+          <value name="FROM">
+            <shadow type="math_number" id="Yv?/NjPCZ9Ym[2@;)*DH">
+              <field name="NUM">20</field>
+            </shadow>
+            <block type="getAnimationFrame" id="jjO/e%w)x_v+(a*Sw/[F">
+              <value name="VALUE">
+                <shadow type="animationList" id="zoRN1b@8yYNjRCq|6$V~">
+                  <field name="FIELDNAME">dau khi</field>
+                </shadow>
+              </value>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="792.0000610351562" viewport-y="64" viewport-w="512" viewport-h="368.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

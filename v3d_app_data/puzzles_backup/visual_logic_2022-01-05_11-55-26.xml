@@ -1,0 +1,42 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="552" scrolly="264.49999999999994" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="769" scrolly="340.500015258789" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="L%JnvjL$]$n(-K4[YLn#" x="-810" y="-250">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="*!L)=pOxvSIwDDC=epej">
+          <field name="FIELDNAME">Object.4</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="setAnimationFrame" id="m62%nVzkUrx.IHv4nI*+">
+          <value name="VALUE">
+            <shadow type="animationList" id="KE)`r~hM+unDWlsx.Dr/">
+              <field name="FIELDNAME">Object.6</field>
+            </shadow>
+          </value>
+          <value name="FROM">
+            <shadow type="math_number" id="Yv?/NjPCZ9Ym[2@;)*DH">
+              <field name="NUM">40</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="allObjectList" id="QBW3s*o+436GiOSfT_7u" x="-633" y="-186"/>
+    <block xmlns="https://developers.google.com/blockly/xml" type="allObjectList" id="l:ZTwrPFc]U?;rP+$iQk" x="-610" y="-110"/>
+    <block xmlns="https://developers.google.com/blockly/xml" type="getAnimations" id=";@}g0%FtWNmSiuLLjm6Q" x="-810" y="10">
+      <value name="OBJECTINPUT">
+        <shadow type="objectList" id="kQD%vDYYh=O/4%bfeB{/">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+      </value>
+    </block>
+  </tab>
+  <editorsettings viewport-x="647.3333740234375" viewport-y="55.333343505859375" viewport-w="512" viewport-h="368.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

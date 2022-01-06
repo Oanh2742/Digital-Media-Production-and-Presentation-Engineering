@@ -1,0 +1,53 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="552" scrolly="264.49999999999994" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="759.6666564941406" scrolly="287.16670227050776" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="L%JnvjL$]$n(-K4[YLn#" x="-758" y="-202">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="*!L)=pOxvSIwDDC=epej">
+          <field name="FIELDNAME">dau khi</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="playAnimationAdv" id="1^x=C|[,mDE43u,n[V*a">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+          <field name="REVERSED">FALSE</field>
+          <field name="LOOP">LoopRepeat</field>
+          <value name="VALUE">
+            <shadow type="animationList" id="bP7;2_o48qD0_)1Y~JpP">
+              <field name="FIELDNAME">dau khi</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="jOt(xJ?7(u:9b#5hzqlk" x="-750" y="-70">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="J:[]o?xR!B/||pUd:!1B">
+          <field name="FIELDNAME">Object.4</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="stopAnimation" id="la=Wqo)I9P/r_ZrbI%Ta">
+          <value name="VALUE">
+            <shadow type="animationList" id="9{S0:2?Y0W;$(.sZO`eq">
+              <field name="FIELDNAME">dau khi</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="715.3334350585938" viewport-y="54.66667175292969" viewport-w="512" viewport-h="368.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
